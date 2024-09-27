@@ -6,11 +6,84 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('background.jpg'); /* Substitua pela sua imagem de fundo */
+    background-image: url('/assets/img/login/fundo-login.png'); 
     background-size: cover;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+header {
+    text-align: left;
+}
+
+.logo img {
+    max-width: 200px; 
+    margin-left: 174px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-section {
+    background: #585858BF; /*Melhorar essa cor*/
+    box-shadow: 0px 15px 15px 0px #BABABA66;
+    padding: 60px 30px;
+    border-radius: 10px;
+}
+
+.login-container {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-bottom: 4px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background-color: #f5c518; 
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e5b518;
+}
+
+a {
+    display: block;
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
 }
 
 
