@@ -10,7 +10,7 @@ document.getElementById('LoginForm').addEventListener('submit', function(event) 
     // Exemplo básico de validação (pode ser mais complexo)
     if (email !== '' && password !== '') {
         // Redireciona para a página desejada após o login
-        window.location.href = '/pages/index.html'; // Substitua pelo link da página que deseja redirecionar
+        window.location.href = '/pages/tela-filmes.html'; // Substitua pelo link da página que deseja redirecionar
     } else {
         alert('Por favor, preencha todos os campos!');
     }
