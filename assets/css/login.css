@@ -6,12 +6,15 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('/assets/img/login/fundo-login.png'); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/login/fundo-login.png');
     background-size: cover;
+    background-blend-mode: darken;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     min-height: 100vh;
 }
+
 
 header {
     text-align: left;
@@ -82,8 +85,33 @@ a {
     text-decoration: none;
 }
 
-footer p {
-    margin: 0;
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 10px 0;
 }
 
+footer p {
+    font-family: Roboto Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social-links {
+    display: flex;
+    list-style: none;
+    margin: 0 5px;
+    height: 75px;
+}
+
+.social-links li {
+    margin-left: 5px;
+}
+
+.social-icon:hover {
+    color: #f5c518;
+}
 
