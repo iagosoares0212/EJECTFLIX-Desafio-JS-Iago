@@ -15,7 +15,6 @@ body {
     min-height: 100vh;
 }
 
-
 header {
     text-align: left;
 }
@@ -33,7 +32,7 @@ main {
 
 .login-section {
     background: #585858BF; /*Melhorar essa cor*/
-    box-shadow: 0px 15px 15px 0px #BABABA66;
+    box-shadow: 0px 15px 15px 0px #00000040;
     padding: 60px 30px;
     border-radius: 10px;
 }
@@ -81,8 +80,12 @@ button:hover {
 a {
     display: block;
     margin-top: 30px;
-    color: white;
+    color: #DBDBDB;
     text-decoration: none;
+}
+
+a:hover {
+    color: black
 }
 
 footer {
