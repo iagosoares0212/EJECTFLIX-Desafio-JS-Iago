@@ -9,24 +9,19 @@ body {
 }
 
 /* Cabeçalho */
-header {
+nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 20px;
     background-color: #181818;
+    padding: 10px 0;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #f0c228;
-}
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 160px;
 }
 
 nav a {
