@@ -19,17 +19,22 @@ footer p {
     font-weight: 400;
 }
 
+footer a {
+    color: white; /* Define a cor branca como padrão para os ícones */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+footer a:hover {
+    color: #f5c518; /* Cor amarela ao passar o mouse */
+}
+
 .social-links {
     display: flex;
     list-style: none;
     margin: 0 5px;
-    height: 75px;
 }
 
 .social-links li {
     margin-left: 5px;
 }
 
-.social-icon:hover {
-    color: #f5c518;
-}
