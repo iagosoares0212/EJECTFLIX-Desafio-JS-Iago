@@ -6,8 +6,10 @@
     <title>Tela de Filmes - EJECTFLIX</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/tela-filmes.css">
+    <link rel="stylesheet" href="/assets/css/modal.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> <!-- Biblioteca de Icons Bootstrap-->
     <script src="/assets/js/tela-filmes.js" defer></script>
+    <script src="/assets/js/modal.js" defer></script>
 </head>
 <body>
     <header>
@@ -18,8 +20,8 @@
             <ul>
                 <li><a href="#">Início</a></li>
                 <li><a href="#">Categorias</a></li>
-                <li><a href="#">Adicionar Filmes</a></li>
-                <li><a href="/pages/login.html">Sair</a></li>
+                <li><a href="#" id="addMovieBtn">Adicionar Filmes</a></li>
+                <li><a href="/pages/login.html">Sair</a></li>   
             </ul>
             <div class="user-icon">
                 <img src="/assets/img/tela-filme/EJECTICONE FUNDO ESCURO 1.png" alt="User">
@@ -52,6 +54,44 @@
             <!-- Copie o bloco acima e altere as informações conforme necessário -->
         </section>
     </main>
+
+    <!-- Modal para Adicionar Filme -->
+    <div id="addMovieModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Adicionar Filme à lista:</h2>
+            <form>
+                <div class="input-flex">
+                    <!-- Linha 1 -->
+                    <div class="input-row r1">
+                        <div class="input-container">
+                            <label for="img-url">Endereço da imagem</label>
+                            <input type="text" id="img-url" placeholder="Inserir...">
+                        </div>
+                        <div class="input-container">
+                            <label for="movie-name">Nome do filme</label>
+                            <input type="text" id="movie-name" placeholder="Inserir...">
+                        </div>
+                    </div>
+    
+                    <!-- Linha 2 -->
+                    <div class="input-row r2">
+                        <div class="input-container">
+                            <label for="category">Categoria</label>
+                            <input type="text" id="category" placeholder="Inserir...">
+                        </div>
+                        <div class="input-container">
+                            <label for="release-year">Ano de lançamento</label>
+                            <input type="text" id="release-year" placeholder="XX/XX/XXXX">
+                        </div>
+                    </div>
+                </div>
+                
+                <button type="submit" class="botao-modal">Adicionar</button>
+            </form>
+        </div>
+    </div>
+    
 
     <footer>
         <p>Made by Luiza Barbosa</p>

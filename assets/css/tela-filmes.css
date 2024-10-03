@@ -77,11 +77,9 @@ nav a {
 .movie-info h3 {
     margin: 10px 0;
     font-size: 18px;
-    z-index: 2;
 }
 
 .movie-info p {
     font-size: 14px;
     color: #bbb;
-    z-index: 2;
 }
