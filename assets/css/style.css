@@ -22,10 +22,13 @@ footer p {
 .social-links {
     display: flex;
     list-style: none;
-    margin: 0 5px;
+    margin: 0 7px;
 }
 
 .social-links li {
     margin-left: 5px;
 }
 
+.bi {
+    color: white;
+}
