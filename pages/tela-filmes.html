@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/tela-filmes.css">
     <link rel="stylesheet" href="/assets/css/modal.css">
+    <link rel="stylesheet" href="/assets/css/carousel.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> <!-- Biblioteca de Icons Bootstrap-->
     <script src="/assets/js/tela-filmes.js" defer></script>
     <script src="/assets/js/modal.js" defer></script>
@@ -30,19 +31,37 @@
     </header>
 
     <main>
-        <section class="movie-flex">
+        <div class="slide-container">
+            <div class="slide-content">
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="/assets/img/tela-filme/Harry potter.png" alt="Harry Potter" class="card-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- <section class="movie-flex"> -->
             <!-- Filme 1 -->
-            <div class="movie-card card1">
+            <!-- <div class="movie-card card1">
                 <div class="movie-info">
                     <h3>Harry Potter</h3>
                     <p>Aventura, Fantasia</p>
                     <p>2007</p>
                 </div>
                 <div class="overlay"></div>
-            </div>
+            </div> -->
 
             <!-- Filme 2 -->
-            <div class="movie-card card2">
+            <!-- <div class="movie-card card2">
                 <div class="movie-info">
                     <h3>Percy Jackson</h3>
                     <p>Aventura, Fantasia</p>
@@ -50,9 +69,7 @@
                 </div>
                 <div class="overlay"></div>
             </div>
-            
-            <!-- Copie o bloco acima e altere as informações conforme necessário -->
-        </section>
+        </section> -->
     </main>
 
     <!-- Modal para Adicionar Filme -->
