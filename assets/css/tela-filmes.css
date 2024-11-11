@@ -16,7 +16,6 @@ nav {
     padding: 10px 0;
 }
 
-
 nav ul {
     list-style: none;
     display: flex;
@@ -37,52 +36,3 @@ main {
     flex:1
 }
 
-/* Grade de filmes */
-.movie-flex {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 40px;
-}
-
-.movie-card {
-    position: relative;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    border-radius: 10px;
-    width: 257px;
-    height: 349px;
-}
-
-.card1 {
-    background-image: url('/assets/img/tela-filme/Harry\ potter.png');
-}
-
-.card2 {
-    background-image: url('/assets/img/tela-filme/Percy\ Jackson.png');
-}
-
-.overlay {
-    position: absolute;
-    width: 100%;
-    height: 35%;
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo preto semitransparente */
-    border-radius: 0 0 10px 10px; /* Manter o arredondamento nos cantos inferiores */
-}
-
-.movie-info {
-    position: relative; /* Certifica-se de que o conteúdo está sobre a sobreposição */
-    z-index: 2; /* Garante que o texto apareça sobre a sobreposição */
-    margin-bottom: 40px;
-}
-
-.movie-info h3 {
-    margin: 10px 0;
-    font-size: 18px;
-}
-
-.movie-info p {
-    font-size: 14px;
-    color: #bbb;
-}
