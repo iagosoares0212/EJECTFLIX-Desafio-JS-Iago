@@ -9,12 +9,34 @@ body {
     position: relative;
     height: 150px;
     width: 150px;
-    border-radius: 50%;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.name, .description {
+    color: black;
+}
+
+.slide-content {
+    margin: 0 40px;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: #FFF;
+}
+
+.image-content, .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px; 
 }
 
 .card-image .card-img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius:50% ;
+    border-radius: 5px;
+    border: 2px solid #4070F4;
 }
